@@ -1,5 +1,6 @@
 import React from 'react'
-import Todos from './todoItem/index'
+import polls from '../data/poll'
+import PollProject from './main/index.jsx'
 
 
 class App extends React.Component{
@@ -7,7 +8,7 @@ class App extends React.Component{
   render(){
     return (
       <div>
-        <Todos/>
+        <PollProject polls={polls}/>
       </div>
     )  
     
